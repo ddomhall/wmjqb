@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  color: white;
+  line-height: 18px;
+}
+
+button {
+  @apply mx-2 mb-4 h-12 w-24 items-stretch rounded-full bg-light px-2 hover:bg-mid;
+}
